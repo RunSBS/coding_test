@@ -4,9 +4,9 @@ class Solution {
         
         // n을 문자열로 변환
         // int 배열로 toCharAt(i) -'0' 사용해서 저장
-        // 각 인덱스 크기비교 크면 앞으로, temp 사용해서
-        // 내림차순으로 정렫된 int 배열 얻음
-        // 
+        // 버블정렬 역순으로 int 배열을 정렬
+        // 다시 int 배열의 요소 하나하나씩 문자열로 바꿔 문자열 더하기
+        // Long타입으로 바꿔서 반환
         
         String s = String.valueOf(n);
         
